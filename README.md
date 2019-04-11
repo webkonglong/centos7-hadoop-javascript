@@ -1,9 +1,11 @@
 # centOS7 搭建 单机版hadoop2.6.5
 
 #### 自己下载  `VMware Workstation Pro`
-##### CentOs7.ios  `https://pan.baidu.com/s/1O_0ZU8gNd54MMWM7b6Bd8A 提取码：99f2`
-##### hadoop2.6.5  `https://pan.baidu.com/s/1h2kM1sl08wwkqYDcI0h-NA 提取码：enim `
-##### jdk-8u201  `https://pan.baidu.com/s/1EGRj1xqHKdvfNCGfgsQesg 提取码：cdon `
+ | 名称 | 下载地址 | 提取密码 |
+ | ---- |---- | ---- | 
+| CentOs7.ios |  https://pan.baidu.com/s/1O_0ZU8gNd54MMWM7b6Bd8A | 99f2 | 
+| hadoop2.6.5  |  https://pan.baidu.com/s/1h2kM1sl08wwkqYDcI0h-NA| enim  |
+| jdk-8u201 |  https://pan.baidu.com/s/1EGRj1xqHKdvfNCGfgsQesg | cdon |
 
 ## 1.下载VMware虚拟机安装CentOs7.ios虚拟机
 * 虚拟机联网执行 `vi /etc/sysconfig/network-scripts/ifcfg-ens33` 修改`ONBOOT=yes`
