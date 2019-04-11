@@ -148,11 +148,11 @@ hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.6.5.jar -input
 
 * 执行`hadoop fs -ls /output` 查看hadoop文件系统`/output`目录
 ```txt
-    -rw-r--r--   1 root supergroup          0 2019-04-11 14:33 /ustds/_SUCCESS
-    -rw-r--r--   1 root supergroup         40 2019-04-11 14:33 /ustds/part-00000
+    -rw-r--r--   1 root supergroup          0 2019-04-11 14:33 /output/_SUCCESS
+    -rw-r--r--   1 root supergroup         40 2019-04-11 14:33 /output/part-00000
 ```
 
-* 执行`hadoop df -cat /ustds/part-00000`查看输出文件
+* 执行`hadoop df -cat /output/part-00000`查看输出文件
 
 ```javascript
 go	1
